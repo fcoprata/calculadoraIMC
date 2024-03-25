@@ -7,6 +7,10 @@ android {
     namespace = "com.example.meuprimeiroaplicativo"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.meuprimeiroaplicativo"
         minSdk = 24
@@ -33,7 +37,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
