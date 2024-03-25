@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="message">Calcular seu IMC</string>
+    <string name="buttom">Click</string>
+    <string name="message_classifier">Classificação  %1$s</string>
+</resources>
